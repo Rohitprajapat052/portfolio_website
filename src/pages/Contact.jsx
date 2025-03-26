@@ -2,38 +2,40 @@ import React from "react";
 
 const Contact = () => {
   return (
-    <div className="w-full bg-gray-100 text-gray-900 py-12">
+    <div className="w-full bg-gray-100 text-gray-900 py-16">
       {/* Contact Section */}
-      <div className="max-w-4xl mx-auto px-6">
-        <h2 className="text-4xl font-bold text-center text-gray-800">Get in Touch</h2>
-        <p className="text-center text-gray-600 mt-2 text-lg">
-          Have questions? Feel free to reach out to us.
+      <div className="max-w-4xl mx-auto px-6 text-center">
+        <h2 className="text-4xl font-extrabold text-[#FFAC1C] tracking-wide">
+          Get in Touch
+        </h2>
+        <p className="text-lg text-gray-700 mt-2">
+          Have questions? We’d love to hear from you.
         </p>
 
         {/* Contact Form */}
         <form className="max-w-lg mx-auto mt-8 bg-white p-6 shadow-md rounded-lg">
-          <div className="mb-4">
-            <label className="block text-gray-700 text-lg font-medium">Name</label>
+          <div className="mb-4 text-left">
+            <label className="block text-lg font-medium text-gray-800">Name</label>
             <input
               type="text"
-              className="mt-2 w-full p-3 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-400 focus:outline-none"
+              className="mt-2 w-full p-3 border border-gray-300 rounded-md focus:ring-2 focus:ring-[#FFAC1C] focus:outline-none"
               placeholder="Enter your name"
               required
             />
           </div>
-          <div className="mb-4">
-            <label className="block text-gray-700 text-lg font-medium">Email</label>
+          <div className="mb-4 text-left">
+            <label className="block text-lg font-medium text-gray-800">Email</label>
             <input
               type="email"
-              className="mt-2 w-full p-3 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-400 focus:outline-none"
+              className="mt-2 w-full p-3 border border-gray-300 rounded-md focus:ring-2 focus:ring-[#FFAC1C] focus:outline-none"
               placeholder="Enter your email"
               required
             />
           </div>
-          <div className="mb-4">
-            <label className="block text-gray-700 text-lg font-medium">Message</label>
+          <div className="mb-4 text-left">
+            <label className="block text-lg font-medium text-gray-800">Message</label>
             <textarea
-              className="mt-2 w-full p-3 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-400 focus:outline-none"
+              className="mt-2 w-full p-3 border border-gray-300 rounded-md focus:ring-2 focus:ring-[#FFAC1C] focus:outline-none"
               rows="4"
               placeholder="Type your message..."
               required
@@ -41,7 +43,7 @@ const Contact = () => {
           </div>
           <button
             type="submit"
-            className="w-full bg-blue-600 text-white p-3 rounded-md text-lg font-medium hover:bg-blue-700 transition-all"
+            className="w-full bg-[#FFAC1C] text-white p-3 rounded-md text-lg font-medium hover:bg-[#e69a18] transition-all"
           >
             Send Message
           </button>

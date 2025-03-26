@@ -25,10 +25,9 @@ const Home = () => {
           Expert tax consulting for businesses and individuals. Our goal is to provide a seamless and stress-free tax experience.
         </p>
         <Link to="/contact">
-          <buttong className="mt-6 px-8 py-3 bg-blue-600 text-white text-lg font-semibold rounded-lg shadow-md hover:bg-blue-700 transform hover:scale-105 transition-all">
-            Get Started 
-
-          </buttong>
+          <button className="mt-6 px-8 py-3 bg-[#FFAC1C] text-white text-lg font-semibold rounded-lg shadow-md hover:bg-[#e69a19] transform hover:scale-105 transition-all">
+            Get Started
+          </button>
         </Link>
       </section>
     </div>
