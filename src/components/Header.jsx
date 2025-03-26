@@ -12,7 +12,7 @@ const Header = () => {
   };
 
   return (
-    <header className="fixed top-0 left-0 w-full bg-white shadow-md z-50">
+    <header className="fixed top-[40px] left-0 w-full bg-white shadow-md z-50">
       <div className="flex justify-between items-center px-10 py-4">
         {/* Logo (Shifted slightly right) */}
         <div

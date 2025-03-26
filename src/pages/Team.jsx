@@ -1,19 +1,19 @@
 import React from "react";
-import JohnImage from "../assets/person.jpg"; // Replace with actual images
-import JaneImage from "../assets/person.jpg";
+import JohnImage from "../assets/person1.jpg"; // Replace with actual images
+import JaneImage from "../assets/person2.jpg";
 
 const Team = () => {
   const teamMembers = [
     {
-      name: "John Doe",
-      role: "Tax Consultant",
+      name: "Krishan Pancholi",
+      role: "Partner",
       description:
         "John is a seasoned tax consultant with over 10 years of experience in tax planning and compliance.",
       image: JohnImage,
     },
     {
-      name: "Jane Smith",
-      role: "Financial Advisor",
+      name: "Manish Sharma",
+      role: "Partner",
       description:
         "Jane specializes in financial planning and investment strategies to help clients achieve their goals.",
       image: JaneImage,
