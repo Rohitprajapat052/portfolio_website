@@ -13,11 +13,11 @@ const Header = () => {
 
   return (
     <header className="fixed top-0 left-0 w-full bg-white shadow-md z-50">
-      <div className="flex justify-between items-center px-6 py-4">
-        {/* Logo */}
+      <div className="flex justify-between items-center px-10 py-4">
+        {/* Logo (Shifted slightly right) */}
         <div
           onClick={() => scrollToSection("home")}
-          className="flex items-center space-x-3 cursor-pointer"
+          className="flex items-center space-x-3 cursor-pointer ml-4"
         >
           <img
             src={logo}
@@ -30,8 +30,8 @@ const Header = () => {
           </div>
         </div>
 
-        {/* Desktop Navigation */}
-        <nav className="hidden md:flex space-x-8">
+        {/* Desktop Navigation (Shifted slightly left) */}
+        <nav className="hidden md:flex space-x-8 mr-4">
           {["Home", "Services", "Team", "Contact"].map((item) => (
             <button
               key={item}
