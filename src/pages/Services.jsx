@@ -1,8 +1,8 @@
 import React from "react";
-import { useNavigate } from "react-router-dom";
+// import { useNavigate } from "react-router-dom";
 
 const Services = () => {
-  const navigate = useNavigate();
+  // const navigate = useNavigate();
 
   const pricedServices = [
     { title: "ITR Filings", price: "₹599/year" },
@@ -41,12 +41,12 @@ const Services = () => {
               <p className="mt-3 text-lg text-[#EFA139] font-medium">
                 Starting at {service.price}
               </p>
-              <button
+              {/* <button
                 className="mt-6 px-6 py-3 bg-[#EFA139] text-white rounded-lg hover:bg-[#d98f2c] transition-all shadow-md"
-                onClick={() => navigate("/contact")}
+                onClick={() => navigate("/contact-us")}
               >
                 Contact Us
-              </button>
+              </button> */}
             </div>
           ))}
         </div>
@@ -74,13 +74,7 @@ const Services = () => {
             ))}
           </div>
 
-          {/* Contact Us Button */}
-          <button
-            className="mt-8 px-8 py-4 bg-[#EFA139] text-white rounded-lg text-lg font-semibold hover:bg-[#d98f2c] transition-all shadow-md"
-            onClick={() => navigate("/contact")}
-          >
-            Contact Us
-          </button>
+          
         </div>
       </div>
     </div>
