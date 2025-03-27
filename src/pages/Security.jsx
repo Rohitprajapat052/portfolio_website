@@ -3,25 +3,25 @@ import { FaUserTie, FaLock, FaClock, FaSync } from "react-icons/fa"; // Importin
 
 const features = [
   {
-    icon: <FaUserTie size={40} className="text-[#FFAC1C]" />,
+    icon: <FaUserTie size={40} className="text-[#EFA139]" />,
     title: "Expert Assistance",
     description:
       "Get guidance from experienced professionals to ensure accurate and hassle-free tax filing.",
   },
   {
-    icon: <FaLock size={40} className="text-[#FFAC1C]" />,
+    icon: <FaLock size={40} className="text-[#EFA139]" />,
     title: "Secure and Private",
     description:
       "Your personal and financial data is protected with top-tier security measures.",
   },
   {
-    icon: <FaClock size={40} className="text-[#FFAC1C]" />,
+    icon: <FaClock size={40} className="text-[#EFA139]" />,
     title: "Timely Filing",
     description:
       "Never miss a deadline with our proactive reminders and efficient processing.",
   },
   {
-    icon: <FaSync size={40} className="text-[#FFAC1C]" />,
+    icon: <FaSync size={40} className="text-[#EFA139]" />,
     title: "Seamless Integration",
     description:
       "Easily connect with various platforms to simplify your tax filing process.",
@@ -30,9 +30,9 @@ const features = [
 
 const Security = () => {
   return (
-    <div className="w-full px-6 py-16 bg-gray-100 text-gray-900 shadow-lg rounded-xl">
+    <div className="w-full px-6 py-20 bg-gray-100 text-gray-900 shadow-lg rounded-xl">
       {/* Heading */}
-      <h1 className="text-4xl font-bold text-center text-gray-900 mb-4">
+      <h1 className="text-4xl font-bold text-center text-[#EFA139] mb-4">
         TaxTag : Your Partner for E-Tax Filing
       </h1>
 

@@ -15,7 +15,7 @@ const App = () => {
       <div className="flex flex-col bg-white text-gray-900 relative min-h-screen">
 
         {/* Auto-Scrolling Marquee Text Section */}
-        <div className="w-full fixed top-0 left-0 z-20 bg-[#FFAC1C] text-white py-2">
+        <div className="w-full fixed top-0 left-0 z-20 bg-[#EFA139] text-white py-2">
           <MarqueeText />
         </div>
 
@@ -25,7 +25,7 @@ const App = () => {
         </div>
 
         {/* Main Content Section (Adjusted to Avoid Overlap) */}
-        <div className="flex-grow w-full mt-[120px]">
+        <div className="flex-grow w-full mt-[150px]">
           <main className="w-full">
             <section id="home" className="flex items-center justify-center w-full">
               <Home />
